@@ -34,6 +34,10 @@ public class Monitor {
 		this.data=data;
 	}
 	
+	public Data getData() {
+		return this.data;
+	}
+	
 	public Object getSysU() {
 		return this.sys_u;
 	}
