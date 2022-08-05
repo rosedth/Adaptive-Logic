@@ -18,16 +18,14 @@ public class Monitor {
 		this.sys_u=sys;
 	}
 	
-	public void setMemory(Memory mem) {
-		this.mem=mem;
+	public Object getSysU() {
+		return this.sys_u;
 	}
+
 	
+	// Connects the monitor and the next process
 	public void setReasoner(Reasoner rea) {
 		this.rea=rea;
-	}
-	
-	public void sense() {
-
 	}
 
 	public void saveData(Data data) {
@@ -38,8 +36,7 @@ public class Monitor {
 		return this.data;
 	}
 	
-	public Object getSysU() {
-		return this.sys_u;
+	public void sense() {
 	}
 	
 	public void sendData() {

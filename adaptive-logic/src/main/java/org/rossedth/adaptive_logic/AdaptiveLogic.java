@@ -38,9 +38,9 @@ public class AdaptiveLogic {
 	}
 	
 	public void init() {
-		Mon.sense();
-		
+		Mon.sense();	
 	}
+	
 	public void setMonitor(Monitor mon) {
 		this.Mon=mon;
 	}
