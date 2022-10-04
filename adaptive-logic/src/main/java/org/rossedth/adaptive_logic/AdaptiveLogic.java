@@ -41,20 +41,46 @@ public class AdaptiveLogic {
 		Mon.sense();	
 	}
 	
+	
+	public Monitor getMonitor() {
+		return Mon;
+	}
+
 	public void setMonitor(Monitor mon) {
 		this.Mon=mon;
 	}
 
+	public Reasoner getReasoner() {
+		return Rea;
+	}
 	public void setReasoner(Reasoner rea) {
 		this.Rea=rea;
 	}
 	
+	
+	public Selector getSelector() {
+		return Sel;
+	}
+
 	public void setSelector(Selector sel) {
 		this.Sel=sel;
 	}
 
+
+	public Executor getExecutor() {
+		return Ex;
+	}
+	
 	public void setExecutor(Executor ex) {
 		this.Ex=ex;
+	}
+
+	public Memory getMemory() {
+		return Mem;
+	}
+
+	public Object getSys_u() {
+		return sys_u;
 	}
 
 }
